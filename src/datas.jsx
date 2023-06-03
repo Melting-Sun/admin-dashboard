@@ -110,6 +110,21 @@ const TransActions = [
 
 ]
 
+const productsData = [
+    {
+        name: 'Jan',
+        sales: 4000,  
+    },
+    {
+        name: 'Feb',
+        sales: 7000,  
+    },
+    {
+        name: 'Oct',
+        sales: 20000,  
+    },
+]
 
 
-export {xAxisData, newMembers }
+
+export {xAxisData, newMembers, productsData }
