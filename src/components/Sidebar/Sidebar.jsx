@@ -27,15 +27,19 @@ function Sidebar() {
               </li>
             </Link>
 
-            <li className="sidebarListItem">
-              <TimelineOutlinedIcon className="sidebarIcon" />
-              Analytics
-            </li>
+            <Link to="analytics" className="link">
+              <li className="sidebarListItem">
+                <TimelineOutlinedIcon className="sidebarIcon" />
+                Analytics
+              </li>
+            </Link>
 
-            <li className="sidebarListItem">
-              <TrendingUpOutlinedIcon className="sidebarIcon" />
-              Sales
-            </li>
+            <Link to="sales" className="link">
+              <li className="sidebarListItem">
+                <TrendingUpOutlinedIcon className="sidebarIcon" />
+                Sales
+              </li>
+            </Link>
           </ul>
         </div>
 
@@ -56,22 +60,26 @@ function Sidebar() {
               </li>
             </Link>
 
-            <Link to='products' className="link">
+            <Link to="products" className="link">
               <li className="sidebarListItem">
                 <AttachMoneyOutlinedIcon className="sidebarIcon" />
                 Products
               </li>
             </Link>
 
-            <li className="sidebarListItem">
-              <TrendingUpOutlinedIcon className="sidebarIcon" />
-              Transactions
-            </li>
+            <Link to="transaction" className="link">
+              <li className="sidebarListItem">
+                <TrendingUpOutlinedIcon className="sidebarIcon" />
+                Transactions
+              </li>
+            </Link>
 
-            <li className="sidebarListItem">
-              <AssessmentOutlinedIcon className="sidebarIcon" />
-              Reports
-            </li>
+            <Link to='reports' className="link">
+              <li className="sidebarListItem">
+                <AssessmentOutlinedIcon className="sidebarIcon" />
+                Reports
+              </li>
+            </Link>
           </ul>
         </div>
 

@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from "react";
 import VisibilityOutlinedIcon from "@mui/icons-material/VisibilityOutlined";
 import "./WidgetSm.css";
-// import { newMembers } from "../../datas";
 
 function WidgetSm() {
   const [newMember, setNewMember] = useState([]);
@@ -13,7 +12,6 @@ function WidgetSm() {
         // console.log(JSON.stringify(data));
 
         // console.log(data);
-        
 
         setNewMember(data);
 
@@ -31,13 +29,6 @@ function WidgetSm() {
   return (
     <div className="widgetSm">
       <span className="widgetSmTitle">New Joind Members</span>
-      {/* {console.log(newMember[1]).title}
-      {console.log(newMember[2])}  */}
-      {/* <div>
-      
-      <p>{newMember[1].username}</p>
-    </div> */}
-    {/* <p>{newMember[1].title}</p> */}
 
       <ul className="widgetSmList">
         {newMember.map((member) => (
